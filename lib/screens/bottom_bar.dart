@@ -25,19 +25,5 @@ class _BottomBarState extends State<BottomBar> {
         BottomNavigationBarItem(icon: Icon(Icons.person), label: "Profile"),
       ],),
     );
-    return Scaffold(
-      appBar: AppBar(title: const Text(""),),
-      body: const Center(
-        child: Text(
-          "My Body"
-        ),
-      ),
-      bottomNavigationBar: BottomNavigationBar(items: const [
-        BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
-        BottomNavigationBarItem(icon: Icon(Icons.search), label: "Search"),
-        BottomNavigationBarItem(icon: Icon(Icons.airplane_ticket), label: "Ticket"),
-        BottomNavigationBarItem(icon: Icon(Icons.person), label: "Profile"),
-      ],),
-    );
   }
 }
